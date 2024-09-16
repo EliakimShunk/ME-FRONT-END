@@ -1,0 +1,27 @@
+body {
+    background-color: #e3f2fd; /* Azul claro */
+}
+
+.navbar {
+    background-color: #42a5f5; /* Azul mais escuro */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.jumbotron {
+    background-color: #bbdefb; /* Azul claro suave */
+    color: #0d47a1; /* Azul escuro para texto */
+}
+
+.section-title {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #42a5f5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

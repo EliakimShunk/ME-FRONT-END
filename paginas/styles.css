@@ -1,0 +1,74 @@
+/* Estilo geral do corpo */
+body {
+    background-color: #e3f2fd; /* Azul claro */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #42a5f5; /* Azul mais escuro */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #bbdefb; /* Cor de hover */
+}
+
+/* Jumbotron (Se houver uma na página principal) */
+.jumbotron {
+    background-color: #bbdefb; /* Azul claro suave */
+    color: #0d47a1; /* Azul escuro para texto */
+}
+
+/* Títulos das seções */
+h2 {
+    color: #0d47a1; /* Azul escuro */
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Espaçamento dos textos nas seções */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Imagens com legenda */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-muted {
+    font-size: 0.9em;
+    color: #6c757d; /* Cor para legenda */
+}
+
+/* Footer */
+.footer {
+    background-color: #42a5f5; /* Azul escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container principal para a seção de conteúdo */
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Hover effect for buttons (if needed in the future) */
+.btn-primary:hover {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+}
+
